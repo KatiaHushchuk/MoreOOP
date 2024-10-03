@@ -8,6 +8,7 @@ import java.util.Random;
 
 @Getter @Setter @AllArgsConstructor
 public class Character {
+    
     private static final Random random = new Random();
     private int hp;
     private int power;

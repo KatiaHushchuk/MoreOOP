@@ -7,6 +7,7 @@ import java.util.Random;
 import org.reflections.Reflections;
 
 public class CharacterFactory {
+    
     private Reflections reflections = new Reflections("lotr");
     private final static Random random = new Random();
 
